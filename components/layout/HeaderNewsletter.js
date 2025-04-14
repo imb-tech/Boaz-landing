@@ -51,8 +51,8 @@ export default function HeaderNewsletter({ handleMobileMenuOpen }) {
                                 <nav className="nav-main-menu d-none d-sm-block">
                                     <ul className="main-menu">
                                         <li><Link className="active" href="/">Home</Link></li>
-                                        <li><Link href="/about">About Us</Link></li>
-                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="#about">About Us</Link></li>
+                                        <li><Link href="#contact">Contact</Link></li>
                                     </ul>
                                 </nav>
                                 <div className="burger-icon burger-icon-white" onClick={handleMobileMenuOpen}><span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" /></div>

@@ -32,9 +32,9 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                 <nav className="mt-15">
                                     <ul className="mobile-menu font-heading">
                                         <li><Link href="/">Home</Link></li>
-                                        <li><Link href="/about">About</Link></li>
-                                        <li><Link href="/services">Services</Link></li>
-                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li><Link href="#about">About</Link></li>
+                                        <li><Link href="#services">Services</Link></li>
+                                        <li><Link href="#contact">Contact</Link></li>
                                     </ul>
                                 </nav>
                             </div>

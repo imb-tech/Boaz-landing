@@ -27,7 +27,7 @@ export default function Info2() {
                                         design trends meet hand-crafted templates.</p>
                                 </div>
                             </div>
-                            <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link>
+                            <div className="mt-20"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="#contact">Contact Us</Link>
                          </div>
                         </div>
                     </div>
