@@ -29,12 +29,12 @@ export default function Hero1Slider() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Yukingizni Bizga Ishoning - Dunyo Bo'ylab Yetkazamiz!</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Boaz.uz - Tez, ishonchli va qulay yuk tashish xizmati<br className="d-none d-lg-block" />Logistic Company</h1>
+                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Trust Us with Your Shipment - We Deliver Worldwide!</p>
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Boaz.uz - Fast, Reliable, and Convenient Shipping Service<br className="d-none d-lg-block" />Logistic Company</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                                Biz bilan yuk tashish – bu oson va qulay! Kichik posilkadan tortib, katta konteynergacha – hamma narsani o‘z vaqtida yetkazamiz. Siz faqat manzilni ayting, qolganini biz hal qilamiz!</p>
+                                               Shipping with us is easy and convenient! From small packages to large containers – we deliver everything on time. Just provide the destination, and we’ll take care of the rest!</p>
                                         </div>
                                     </div>
 
@@ -49,12 +49,12 @@ export default function Hero1Slider() {
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Yukingizni Bizga Ishoning - Dunyo Bo'ylab Yetkazamiz!</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Boaz.uz - Tez, ishonchli va qulay yuk tashish xizmati<br className="d-none d-lg-block" />Logistic Company</h1>
+                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Trust Us with Your Shipment - We Deliver Worldwide!</p>
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Boaz.uz - Fast, Reliable, and Convenient Shipping Service<br className="d-none d-lg-block" />Logistic Company</h1>
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                                Biz bilan yuk tashish – bu oson va qulay! Kichik posilkadan tortib, katta konteynergacha – hamma narsani o‘z vaqtida yetkazamiz. Siz faqat manzilni ayting, qolganini biz hal qilamiz!</p>
+                                               Shipping with us is easy and convenient! From small packages to large containers – we deliver everything on time. Just provide the destination, and we’ll take care of the rest!</p>
                                         </div>
                                     </div>
 

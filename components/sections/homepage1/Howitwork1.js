@@ -3,12 +3,12 @@
 export default function Howitwork1() {
     return (
         <>
-            <section className="section pt-85 bg-worldmap">
+            <section id="services" className="section pt-85 bg-worldmap">
                 <div className="container">
                     <div className="text-center"><img className="mb-15" src="/assets/imgs/template/icons/favicon.svg" alt="transp" />
-                        <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">✨ Qanday ishlaymiz?</h2>
+                        <h2 className="color-brand-2 mb-20 wow animate__animated animate__fadeIn">✨ How Do We Work?</h2>
                         <p className="font-lg color-grey-700 wow animate__animated animate__fadeIn">
-                            Siz yetkazib berishni xohlagan shaharlarni tanlaysiz. Biz esa eng mos va tezkor yetkazib berish yechimini topamiz — joylashuvingizdan qat’i nazar!
+                        You choose the cities you want to ship to. We’ll find the most suitable and fastest delivery solution — no matter where you're located!
                         </p>
                     </div>
                     <div className="row mt-50">
@@ -18,9 +18,9 @@ export default function Howitwork1() {
                                     <div className="image-play"><img className="mb-15 wow animate__animated animate__fadeIn" src="/assets/imgs/template/icons/play.svg" alt="transp" /></div>
                                     <div className="info-play">
                                         <h4 className="color-white mb-15 wow animate__animated animate__fadeIn">
-                                            Ko'p yillik tajriba va ishtiyoq bilan ishlaymiz</h4>
+                                        We work with years of experience and passion.</h4>
                                         <p className="font-md color-white wow animate__animated animate__fadeIn">
-                                            Har bir buyurtma ortida katta fidoyilik va texnologik yechimlar turadi. Biz sizga tez, ishonchli va professional xizmat ko‘rsatamiz!
+                                        Behind every order lies great dedication and technological solutions. We provide you with fast, reliable, and professional service!
                                         </p>
                                     </div>
                                 </div>
@@ -32,28 +32,28 @@ export default function Howitwork1() {
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/order.png" alt="transp" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">
-                                            Mijoz buyurtma beradi</h5>
+                                        The customer places an order.</h5>
                                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                                            Mahsulot tekshiriladi va sifat nazoratidan o‘tadi</p>
+                                        The product is inspected and goes through quality control.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/payment.png" alt="transp" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">
-                                            To‘lov muvaffaqiyatli amalga oshiriladi
+                                        The payment is successfully processed.
                                         </h5>
                                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                                            Payoneer, PayPal yoki Visa orqali to‘lov qabul qilinadi</p>
+                                        Payments are accepted via Payoneer, PayPal, or Visa.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/warehouse.png" alt="transp" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">
-                                            Ombor buyurtmani qabul qiladi</h5>
+                                        The warehouse receives the order.</h5>
                                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
-                                            Mahsulotlar aniqligi tekshiriladi, tayyorlanadi
+                                        The products are verified for accuracy and prepared for shipment.
                                         </p>
                                     </div>
                                 </li>
@@ -61,16 +61,18 @@ export default function Howitwork1() {
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/picked.png" alt="transp" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">
-                                            Buyurtma qadoqlanadi va jo‘natiladi</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Mahsulotlar mahalliy tashuvchi orqali yuboriladi</p>
+                                            The order is packed and shipped.</h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> 
+                                        The products are shipped via local carrier.</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div className="image-how"><span className="img"><img src="/assets/imgs/page/homepage1/delivery.png" alt="transp" /></span></div>
                                     <div className="info-how">
                                         <h5 className="color-brand-2 wow animate__animated animate__fadeIn">
-                                            Yetkazib berildi va natija nazorat qilinadi</h5>
-                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> Buyurtma holati tizimda yangilanadi va mijoz xabardor qilinadi</p>
+                                        The order is delivered, and the result is monitored.</h5>
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn"> 
+                                        The order status is updated in the system, and the customer is notified.</p>
                                     </div>
                                 </li>
                             </ul>
