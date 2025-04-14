@@ -10,7 +10,7 @@ class MyDocument extends Document {
                     <link
                         href="https://fonts.bunny.net/css?family=epilogue:400,500,600,700"
                         rel="stylesheet"
-                    />
+                    /> 
 
                     {/* Meta Tags for SEO */}
                     <meta charset="UTF-8" />
