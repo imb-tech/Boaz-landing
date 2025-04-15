@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
 import Footer from './Footer'
-import FooterNewsletter from "./FooterNewsletter"
 import Header1 from './Header1'
-import Header2 from './Header2'
-import HeaderNewsletter from "./HeaderNewsletter"
 import PageHead from './PageHead'
 import Sidebar from './Sidebar'
 
-export default function Layout({ headerStyle, footerStyle, headTitle, children, topBarStyle }) {
+export default function Layout({ headTitle, children, topBarStyle }) {
     const [scroll, setScroll] = useState(0)
 
     const [openClass, setOpenClass] = useState('');
@@ -42,22 +39,15 @@ export default function Layout({ headerStyle, footerStyle, headTitle, children, 
 
     return (
         <>
-            <PageHead headTitle={headTitle} /> 
+            <PageHead headTitle={headTitle} />
             <div className="body-overlay-1" onClick={handleMobileMenuClose} />
-            {!headerStyle && <Header1 topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />} 
-            {headerStyle == 1 && <Header1 topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />}
-            {headerStyle == 2 && <Header2 topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />} 
-            {headerStyle == "newsletter" && <HeaderNewsletter topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />}
+            <Header1 topBarStyle={topBarStyle} scroll={scroll} handleMobileMenuOpen={handleMobileMenuOpen} />
             <Sidebar openClass={openClass} handleMobileMenuClose={handleMobileMenuClose} />
             <main className="main">
                 {children}
             </main>
 
-
-            {!footerStyle && <Footer />}
-            {footerStyle == 1 && <Footer />}
-            {footerStyle == "newsletter" && <FooterNewsletter />}
-
+            <Footer />
             <BackToTop />
         </>
     )

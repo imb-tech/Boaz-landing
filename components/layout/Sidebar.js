@@ -1,25 +1,9 @@
 import Link from "next/link";
-import { useState } from "react";
+
 
 
 export default function Sidebar({ openClass, handleMobileMenuClose }) {
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: "",
-    });
 
-    const handleToggle = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            });
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            });
-        }
-    };
     return (
         <>
             <div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${openClass}`}>
