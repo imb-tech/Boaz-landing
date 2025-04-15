@@ -10,7 +10,7 @@ class MyDocument extends Document {
                     <link
                         href="https://fonts.bunny.net/css?family=epilogue:400,500,600,700"
                         rel="stylesheet"
-                    /> 
+                    />
 
                     {/* Meta Tags for SEO */}
                     <meta charSet="UTF-8" />
@@ -26,8 +26,8 @@ class MyDocument extends Document {
                     <meta name="description" lang="ru" content="Boaz.uz - Логистические услуги, доставка грузов, транспорт, склады. Быстрая и надежная доставка по Узбекистану и за его пределами. Лучшая логистическая компания в Узбекистане и Центральной Азии." />
                     <meta name="keywords" lang="ru" content="логистика, грузоперевозки, транспорт, доставка, склад, международная доставка, логистика Узбекистана, Boaz.uz, транспортные услуги, логистическая компания, быстрая доставка" />
 
-  {/* Turkish (tr) */}
-  <meta name="description" lang="tr" content="Boaz.uz - Lojistik hizmetleri, taşıma, ulaşım, depo hizmetleri. Özbekistan ve uluslararası alanda hızlı ve güvenilir teslimat. Özbekistan ve Orta Asya'nın en iyi lojistik şirketi." />
+                    {/* Turkish (tr) */}
+                    <meta name="description" lang="tr" content="Boaz.uz - Lojistik hizmetleri, taşıma, ulaşım, depo hizmetleri. Özbekistan ve uluslararası alanda hızlı ve güvenilir teslimat. Özbekistan ve Orta Asya'nın en iyi lojistik şirketi." />
                     <meta name="keywords" lang="tr" content="lojistik, taşıma, ulaşım, teslimat, depo, uluslararası lojistik, Özbekistan lojistiği, Boaz.uz, taşıma hizmetleri, lojistik şirketi, hızlı teslimat" />
                     {/* English (en) */}
                     <meta name="description" lang="en" content="Boaz.uz - Logistics services, freight transportation, delivery, warehouse solutions. Fast and reliable shipping in Uzbekistan and internationally. The best logistics company in Uzbekistan and Central Asia." />
@@ -77,6 +77,16 @@ class MyDocument extends Document {
                         }
                         `
                     }} />
+
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17008447270">
+                    </script>
+                    <script>
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments)}
+                        gtag('js', new Date());
+
+                        gtag('config', 'AW-17008447270');
+                    </script>
                 </Head>
                 <body>
                     <Main />
